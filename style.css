@@ -36,7 +36,8 @@ main{
   flex-direction: column;
   align-items: center;
   box-shadow:0 2px 4px rgba(0, 0, 0, 0) ;
-  background-image: linear-gradient(green,brown,yellow);
+  background-color: green;
+  border-radius: 20px;
   
   
   
@@ -54,11 +55,26 @@ section p{
 }
 
 input[type="email"]{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     border: 1px solid brown;
     border-radius: 30px;
-    background-color: yellow;
+    background-image: linear-gradient(green,blue,brown);
+    cursor: pointer;
+}
+input[type="date"]{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 30px;
+    background-image: linear-gradient(green,brown);
+    text-decoration: none;
+}
+input[type="phone number"]{
+    font-size: 30px;
+    padding: 10px;
+    background-image: linear-gradient(brown,green);
+    border-radius:1em ;
 }
 
 
@@ -67,9 +83,9 @@ button{
     background-image: linear-gradient(brown,green,black,yellow);
     color: #fff;
     border: 7px;
-    padding: 7px;
-    font-size: medium;
-    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius:20px ;
     cursor: pointer;
     
 }
